@@ -1,0 +1,42 @@
+#Starttext{
+    width: 200px;
+    height: 50px;
+    background-color: #fff8f8;
+    opacity:0.5;
+    display: none;
+    position: absolute;
+    word-wrap: break-word;
+    border-radius:10px;
+    border-style: solid;
+    border-color: #ff0000;
+    border-width: 2px;
+    cursor:pointer;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+}
+#Starttext:hover{
+    background-color: yellow;
+}
+#Stoptext{
+    width: 200px;
+    height: 50px;
+    background-color: #ffffff;
+    opacity:0.5;
+    display: none;
+    position: absolute;
+    word-wrap: break-word;
+    border-radius:10px;
+    border-style: solid;
+    border-color: #ff0000;
+    border-width: 2px;
+    cursor:pointer;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
+}
+#Stoptext:hover{
+    background-color: yellow;
+}
