@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>嗡嗡嗡嗡嗡嗡</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/dom.css">
+</head>
+
+<body>
+    <div id="Starttext" >
+        <button id="close">关闭对话框</button>
+        <button id="start">让汽车启动</button>
+        <button id="stop">让汽车停下</button>
+        <button id="textureButton" onclick="TogglePanel()">选择地面材质</buttotopn>
+        <button id="remove">删除学校模型</button>
+        <button id="addSchool">添加学校模型</button>
+        <button id="cloneSchool">克隆学校模型</button>
+        <button id="helicopterMove">开启直升机移动</button>
+        <button id="helicopterStop">关闭直升机移动</button>
+        <button id="boxTop" onclick="BoxTopButton()">更改盒子顶部贴图</button>
+        <button id="boxMid" onclick="BoxMidButton()">更改盒子中部贴图</button>
+        <button id="boxButton" onclick="BoxBottonButton()">更改盒子底部贴图</button>
+        <div id="texture">
+            <img src="image/desert.jpg" alt="" id="map1" class="ground">
+            <img src="image/rock.jpg" alt="" id="map2" class="ground">
+            <img src="image/snow.jpg" alt="" id="map3" class="ground">
+        </div>
+        <div id="boxTexture">
+            <img src="model/t1.jpg" alt="" id="Boxtexture1" class="ground">
+            <img src="model/t2.jpg" alt="" id="Boxtexture2" class="ground">
+            <img src="model/t3.jpg" alt="" id="Boxtexture3" class="ground">
+            <img src="model/t4.jpg" alt="" id="Boxtexture4" class="ground">
+            <img src="model/t5.jpg" alt="" id="Boxtexture5" class="ground">
+        </div>
+    </div>
+    <div id="Stoptext" >
+        <button id="close1">关闭对话框</button>
+        <button id="stop">让汽车停下</button>
+    </div>
+    
+    <video src="../src/image/video.mp4" id="video" style="display: none;" autoplay loop> </video>
+    
+    <script src="../node_modules/tween.js/src/Tween.js"></script>
+    <script src="./main/main.js" type="module"></script>
+    <script src="./gsap/dist/gsap.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/TweenMax.min.js"></script> -->
+    <script src="main/dom.js"></script>
+</body>
+
+</html>
